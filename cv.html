@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar gradient">
         <div class="container"><a class="navbar-brand logo" href="#">Jegor Kitškerkin</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects-no-images.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link active" href="cv.html">CV</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
@@ -66,51 +68,7 @@
                 </div>
                 <div class="group">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="skills portfolio-info-card">
-                                <h2>Languages</h2>
-                                <h3>Russian</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
-                                </div>
-                                <h3>English</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
-                                </div>
-                                <h3>Estonian</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
-                                </div>
-                                <h3>Dutch</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"><span class="visually-hidden">15%</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="contact-info portfolio-info-card">
-                                <h2>Contact Info</h2>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
-                                    <div class="col-9"><span>22/05/2000</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-person icon"></i></div>
-                                    <div class="col-9"><span>Jegor Kitškerkin</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
-                                    <div class="col-9"><span>+31 6 3611 2021</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-at icon"></i></div>
-                                    <div class="col-9"><span>jegor.kitskerkin@gmail.com</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
+                        <div class="col">
                             <div class="skills portfolio-info-card">
                                 <h2>Skills</h2>
                                 <h3>Adv. Maths</h3>
@@ -125,15 +83,14 @@
                                 <div class="progress">
                                     <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
                                 </div>
+                                <h3>Kotlin</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
+                                </div>
                                 <h3>Java</h3>
                                 <div class="progress">
                                     <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="visually-hidden">80%</span></div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="skills portfolio-info-card">
-                                <h2>&nbsp;</h2>
                                 <h3>SQL</h3>
                                 <div class="progress">
                                     <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
@@ -148,6 +105,54 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col" style="margin-bottom: 30px;">
+                                    <div class="skills portfolio-info-card">
+                                        <h2>Languages</h2>
+                                        <h3>Russian</h3>
+                                        <div class="progress">
+                                            <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
+                                        </div>
+                                        <h3>English</h3>
+                                        <div class="progress">
+                                            <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
+                                        </div>
+                                        <h3>Estonian</h3>
+                                        <div class="progress">
+                                            <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
+                                        </div>
+                                        <h3>Dutch</h3>
+                                        <div class="progress">
+                                            <div class="progress-bar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"><span class="visually-hidden">15%</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="contact-info portfolio-info-card">
+                                        <h2>Contact Info</h2>
+                                        <div class="row">
+                                            <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
+                                            <div class="col-9"><span>22/05/2000</span></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-1"><i class="icon ion-person icon"></i></div>
+                                            <div class="col-9"><span>Jegor Kitškerkin</span></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
+                                            <div class="col-9"><span>+31 6 3611 2021</span></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-1"><i class="icon ion-at icon"></i></div>
+                                            <div class="col-9"><span>jegor.kitskerkin@gmail.com</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -155,7 +160,7 @@
     </main>
     <footer class="page-footer">
         <div class="container">
-            <div class="links"><a href="/cv.html">About me</a><a href="/contact.html">Contact me</a><a href="/projects-no-images.html">Projects</a></div>
+            <div class="links"><a href="/cv.html">About me</a><a href="/contact.html">Contact me</a><a href="/projects.html">Projects</a></div>
             <div class="social-icons"><a href="https://github.com/jegork"><i class="icon ion-social-github"></i></a></div>
         </div>
     </footer>
